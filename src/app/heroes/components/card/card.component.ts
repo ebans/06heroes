@@ -16,4 +16,6 @@ public hero!:Heroe;
 ngOnInit(): void {
  if (!this.hero) throw new Error('Heroe property is required');
 }
+
+
 }
